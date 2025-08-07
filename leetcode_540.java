@@ -14,7 +14,7 @@ public class leetcode_540 {
 
     // Main method with test cases
     public static void main(String[] args) {
-        Main sol = new Main();
+        leetcode_540 sol = new leetcode_540();
 
         int[][] testCases = {
                 { 1, 1, 2, 3, 3, 4, 4, 8, 8, 10, 10, 11, 11 },
