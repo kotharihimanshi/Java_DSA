@@ -1,5 +1,7 @@
 public class leetcode_50 {
 
+    //pow(x , n)
+
     public static void main(String[] args) {
         Solution solution = new Solution();
 
