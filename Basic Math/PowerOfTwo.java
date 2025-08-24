@@ -27,13 +27,13 @@ class Solution {
     // ------------------ Approach 1: Brute Force ------------------
     // Keep dividing n by 2 until it becomes 1.
     // If n is less than or equal to 0, it's not a power of two.
-    public boolean isPowerOfTwoBrute(int n) {
-        if (n <= 0) return false;
-        while (n % 2 == 0) {
-            n /= 2;
-        }
-        return n == 1;
-    }
+    // public boolean isPowerOfTwoBrute(int n) {
+    //     if (n <= 0) return false;
+    //     while (n % 2 == 0) {
+    //         n /= 2;
+    //     }
+    //     return n == 1;
+    // }
 
     // ------------------ Approach 2: Optimal (Bit Manipulation) ------------------
     // A number is a power of two if it has only one set bit.
